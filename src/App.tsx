@@ -3,10 +3,10 @@ import useLocalizeDocumentAttributes from "./i18n/useLocalizeDocumentAttributes"
 import AllRoutes from "./routes";
 
 export default function App() {
-    useLocalizeDocumentAttributes();
-    return (
-        <BrowserRouter>
-            <AllRoutes />
-        </BrowserRouter>
-    )
+	useLocalizeDocumentAttributes();
+	return (
+		<BrowserRouter>
+			<AllRoutes />
+		</BrowserRouter>
+	);
 }

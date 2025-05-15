@@ -1,0 +1,68 @@
+{
+	// formatting
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"editor.formatOnSave": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"html.format.wrapAttributes": "force-aligned",
+	"prettier.endOfLine": "auto",
+	"prettier.printWidth": 120,
+	"prettier.requireConfig": true,
+	"prettier.useTabs": true,
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features",
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace"
+	},
+	// Git settings
+	"git.autofetch": true,
+	"git.fetchOnPull": true,
+	"git.pruneOnFetch": true,
+	"git.inputValidationSubjectLength": null,
+	"git.confirmSync": false,
+	// Auto imports
+	"typescript.suggest.autoImports": true,
+	"typescript.tsserver.experimental.enableProjectDiagnostics": true,
+	// Gitlens settings
+	"gitlens.views.scm.grouped.views": {
+		"commits": false,
+		"branches": false,
+		"remotes": true,
+		"stashes": false,
+		"tags": true,
+		"worktrees": true,
+		"contributors": true,
+		"repositories": false,
+		"searchAndCompare": true,
+		"launchpad": false
+	},
+	"gitlens.currentLine.enabled": false,
+	"gitlens.hovers.currentLine.over": "line",
+	"gitlens.codeLens.enabled": false,
+	"gitlens.plusFeatures.enabled": false,
+	//  Other settings
+	"githubPullRequests.createOnPublishBranch": "ask",
+	"scss.validate": true,
+	"editor.linkedEditing": true,
+	"diffEditor.diffAlgorithm": "advanced",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"npm.packageManager": "npm",
+	"npm-intellisense.packageSubfoldersIntellisense": true,
+	"npm-intellisense.scanDevDependencies": true,
+	"eslint.validate": [
+		"javascript",
+		"typescript"
+	],
+}

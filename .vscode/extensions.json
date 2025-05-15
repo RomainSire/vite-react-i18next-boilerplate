@@ -1,0 +1,18 @@
+{
+	"recommendations": [
+		"dbaeumer.vscode-eslint",
+		"donjayamanne.githistory",
+		"GitHub.vscode-pull-request-github",
+		"eamodio.gitlens",
+		"xabikos.JavaScriptSnippets",
+		"christian-kohler.npm-intellisense",
+		"christian-kohler.path-intellisense",
+		"esbenp.prettier-vscode",
+		"editorconfig.editorconfig",
+		"formulahendry.auto-close-tag",
+		"mattpocock.ts-error-translator",
+		"lokalise.i18n-ally",
+		"bradlc.vscode-tailwindcss"
+	],
+	"unwantedRecommendations": []
+}

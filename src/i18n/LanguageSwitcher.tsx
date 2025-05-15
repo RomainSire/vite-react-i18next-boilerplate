@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { changeLanguage } from "i18next";
 import { useLocation, useNavigate } from "react-router";
 import { supportedLangages } from "./config";
@@ -15,13 +16,14 @@ export default function LanguageSwitcher() {
 	return (
 		<div className="flex gap-2">
 			{Object.entries(supportedLangages).map(([lang, name]) => (
-				<button
+				<Button
 					key={lang}
 					onClick={() => handleChangeLang(lang)}
-					className="bg-teal-600 hover:bg-teal-500 transition-all cursor-pointer text-white px-4 py-2 rounded"
+					variant="outline"
+					size="default"
 				>
 					{name}
-				</button>
+				</Button>
 			))}
 		</div>
 	);
